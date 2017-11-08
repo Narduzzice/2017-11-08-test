@@ -20,6 +20,11 @@ namespace Additionneur
         private void btn1_Click(object sender, EventArgs e)
         {
             textBox2.Text = textBox1.Text;
+            textBox1.Text = "Nom de m";
+            if(textBox1.Text == textBox2.Text)
+            {
+                label2.Text = "Et le nouveau nom :";
+            }
         }
     }
 }
