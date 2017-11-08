@@ -17,9 +17,7 @@ namespace Additionneur
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Console.WriteLine("Additionneur");
-            Console.WriteLine("============");
-            Console.Read();
+
         }
     }
 }

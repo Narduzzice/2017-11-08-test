@@ -16,5 +16,10 @@ namespace Additionneur
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = textBox1.Text;
+        }
     }
 }
